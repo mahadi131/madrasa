@@ -67,13 +67,54 @@ h2{
     background: green;
     color: white
 }
-@media (max-width:1100px){
+@media (max-width:1170px){
     .heading{
         margin-right: 0px;
-         ;!important
-        width: 50%;
+        width: 25% ;
     }
     .marq{
         width: 75%
+    }
+}
+
+@media (max-width:800px){
+    .heading{
+        margin-right: 0px;
+        width: 30% ;
+    }
+    .marq{
+        width: 70%
+    }
+}
+@media (max-width:685px){
+    .heading{
+        margin-right: 0px;
+        width: 38% ;
+    }
+    .marq{
+        width: 62%
+    }
+}
+@media (max-width:500px){
+    .heading{
+        margin-right: 0px;
+        width: 50% ;
+    }
+    .marq{
+        width: 50%
+    }
+}
+@media (max-width:380px){
+    .heading{
+        font-size: 20px;
+        margin-right: 0px;
+        width: 30%;
+        clear: left;
+        clear: right;
+        display: inline-block;
+    }
+    .marq{
+        width: 70%;
+        font-size: 25px;
     }
 }
