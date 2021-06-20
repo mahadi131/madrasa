@@ -44,15 +44,7 @@ input,button{
     padding: 0px;
     height: 8vh;
 }
-h2{
-    display: inline-block;
-    background: red;
-    color: white;
-    height: 50px;
-    margin:0px !important;
-    padding: 0px;
-    margin-left: 50px;!important
-}
+
 
 .heading{
     display: inline-block;
@@ -116,5 +108,79 @@ h2{
     .marq{
         width: 70%;
         font-size: 25px;
+    }
+}
+.welcome h2{
+    color: #172a6e;
+    font-size: 42px;
+    line-height: 42px;
+    font-weight: 300;
+}
+.madrasa{
+    height: 100%;
+    width: 100%
+}
+.read{
+    padding: 11px 20px;
+    color: white;
+    background: #110535 ;
+}
+.history{
+    margin-top: 50px;
+    text-align: center;
+    background: #322D5A;
+    color: white;
+}
+.history h2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.history .read{
+    width: 150px;
+    margin: auto;
+    align-self: center;
+    margin-bottom: 50px;
+} 
+.message h4{
+    
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 500;
+    margin-left: 22px;
+    letter-spacing: 0px;
+    color: #8E2A9C;
+
+}
+.qutaion
+{
+    margin-bottom: 25px;
+    color: #787878;
+    font-size: 17px;
+    line-height: 31px;
+    display: block;
+    height: auto;
+    margin: 0 0 35px 25px;
+    position: relative;
+    margin-top: 10px;
+}
+.msg{
+    margin-top: 30px;
+}
+.message img{
+    height: 100%;
+    width: 100%
+}
+.vice{
+    margin-top: 30px;
+    line-height: 40px;
+}
+@media (min-width:780px){
+    .ml{
+        margin-left: 30px;
+    }
+}
+@media (max-width: 1000px) and (min-width: 580px){
+    .message img{    
+}
     }
 }
