@@ -1,0 +1,79 @@
+.banner img{
+    height: 20vh;
+    width: 100%
+}
+h1{
+    width: 100%;
+    font-size: 500%;
+    color: yellow;
+    background: #034603;
+}
+.slide{
+    width: 100%
+}
+.menu{
+    background: red;
+}
+ul{
+    margin: auto;
+}
+ul li a{
+    color: white !important;
+}
+a:hover{
+    background: #b20c0c;
+    border-radius: 5px;
+}
+.logo{
+    height: 80px;
+    margin-top: px;
+    margin-bottom: 0px;
+    padding: 0px;
+    margin-left: 20%
+}
+.navbar{
+    margin: 0px;
+    padding: 0px;
+}
+input,button{
+    border-radius: 5px;
+    border: none;
+}
+.latest-news{
+    margin: 0px;
+    padding: 0px;
+    height: 8vh;
+}
+h2{
+    display: inline-block;
+    background: red;
+    color: white;
+    height: 50px;
+    margin:0px !important;
+    padding: 0px;
+    margin-left: 50px;!important
+}
+
+.heading{
+    display: inline-block;
+    background: red;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 25px
+}
+.marq{
+    background: green;
+    color: white
+}
+@media (max-width:1100px){
+    .heading{
+        margin-right: 0px;
+         ;!important
+        width: 50%;
+    }
+    .marq{
+        width: 75%
+    }
+}
