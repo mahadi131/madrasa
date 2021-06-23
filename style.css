@@ -4,7 +4,8 @@
 }
 
 .slide{
-    width: 100%
+    width: 100%;
+    height: 70vh;
 }
 .menu{
     background: red;
@@ -67,41 +68,39 @@ input,button{
 @media (max-width:800px){
     .heading{
         margin-right: 0px;
-        width: 30% ;
+        width: 30% !important ;
     }
     .marq{
-        width: 70%
+        width: 70% !important;
     }
 }
 @media (max-width:685px){
     .heading{
         margin-right: 0px;
-        width: 38% ;
+        width: 38% !important;
     }
     .marq{
-        width: 62%
+        width: 62% !important;
     }
 }
 @media (max-width:500px){
     .heading{
         margin-right: 0px;
-        width: 50% ;
+        width: 50% !important;
     }
     .marq{
-        width: 50%
+        width: 50% !important;
     }
 }
 @media (max-width:380px){
     .heading{
         font-size: 20px;
         margin-right: 0px;
-        width: 30%;
-        clear: left;
-        clear: right;
+        width: 30% !important;
         display: inline-block;
     }
     .marq{
-        width: 70%;
+        width: 70% !important;
         font-size: 25px;
     }
 }
