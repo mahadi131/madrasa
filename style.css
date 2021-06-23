@@ -91,6 +91,12 @@ input,button{
     .marq{
         width: 50% !important;
     }
+    .slide{
+        height: 50vh;
+    }
+    .madrasa{
+        height: 50vh !important;
+    }
 }
 @media (max-width:380px){
     .heading{
